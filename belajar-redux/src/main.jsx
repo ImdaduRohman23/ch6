@@ -5,7 +5,10 @@ import store from './redux'
 import './index.css'
 // import Person from './components/Person'
 import { Provider } from 'react-redux'
+import { fetchGitHubData } from './actions/person'
 import "bootstrap/dist/css/bootstrap.min.css";
+
+store.dispatch(fetchGitHubData());
 
 
 
