@@ -4,13 +4,15 @@ import PersonContainer from './components/PersonContainer'
 
 import Github from './components/Github'
 import TambahKurang from './components/TambahKurang'
+import CardTable from './components/CardTable'
 
 function App() {
-
+  
   return (
     <div className="App">
-      <Github />
-      <TambahKurang />
+      {/* <Github />
+      <TambahKurang /> */}
+      <CardTable />
     </div>
   )
 }
